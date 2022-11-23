@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#top-banner{
+    background-image: url("/img/header-bg.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.pd-top{
+    margin-top: 100px;
+}
+.half-width h2{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.half-width h1{
+    font-size: 60px;
+    margin-top: 0;
+    color: #FF1A74;
+    font-weight: bold;
+}
+.half-width p{
+    color: dimgray;
+    font-size: 18px;
+}
+.link-highlight{
+    font-size: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#FF4A92,#FF1771);
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+}
+#bio-graphy{
+    height: 600px;
+    background-image: url(/img/biography-bg.png);
+}
+#bio-graphy p{
+    padding-right: 25px;
+}
+#bio-graphy .half-width:last-child{
+    margin-left: 5%;
+}
+#work{
+    height: 650px;
+    background-image: url(/img/latest-work-bg.png);
+    width: 100%;
+}
+.project{
+    height: 300px;
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+}
+.project img{
+    height: 100%;
+    width: 100%;
+}
+#work h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+}
+#clients-review{
+    background-image: url("/img/footer-bg.png");
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+#clients-review h2{
+    text-align: center;
+    font-size: 45px;
+}
+.clients{
+    text-align: center;
+}
+.clients p:first-child{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.clients p:last-child{
+    font-size: 22px;
+}
+.big-button{
+    width: 60%;
+    height: 120px;
+    background-image: linear-gradient(180deg,#FF4A92,#FF1771);
+    margin-left: 20%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.big-button p{
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+.big-button h3{
+    font-size: 30px;
+    margin-top: 0;
+}
+.big-button h3::selection{
+    color: aqua;
+}
+#clients-review .footer{
+    color: dimgray;
+    padding-top: 100px;
+    text-align: center;
+}
